@@ -1,0 +1,58 @@
+.logo {
+    width: 100%;
+    text-align: center;
+    opacity: 0.5;
+    background-color: gray;
+    padding: 20px;
+}
+
+.logo:hover {
+    opacity: 1.0;
+}
+
+.footer {
+    color: black;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 160px;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+    background-color: green;
+}
+
+.menu {
+    color: blueviolet;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+
+/*akoze zarovnat do roviny jednotlive li tak to ma zmysel nie davat to na menu lebo yarovnavas menu a toto su children*/
+
+li {
+    display: inline-block;
+}
+
+main li {
+    color: yellow;
+    display: inline-block;
+}
+
+.columns {
+    /*vytvori tri columni rovnake  */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+body {
+    background-color: silver;
+}
